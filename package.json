@@ -33,8 +33,7 @@
     "dev": "cross-env NODE_ENV=development webpack serve --progress --hot --config=webpack.config.dev.js",
     "docs": "cross-env NODE_ENV=production webpack --config=webpack.config.dev.js --progress --mode=production",
     "build": "cross-env NODE_ENV=production webpack --progress --mode=production",
-    "prepublishOnly": "npm run test && npm run build",
-    "postinstall": "npm run build"
+    "prepublishOnly": "npm run test && npm run build"
   },
   "dependencies": {
     "flatpickr": "^4.6.9"
